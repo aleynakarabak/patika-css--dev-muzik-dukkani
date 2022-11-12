@@ -1,0 +1,35 @@
+/* class -> . text-red {} */
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: rgb(206, 48, 206);
+}
+
+h3 {
+    color: rgb(205, 162, 23);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ol, li {
+    text-align: center;
+    list-style-position: inside
+}
+
+
+nav, footer {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+img {
+    width: 7cm; height: 10cm;
+}
